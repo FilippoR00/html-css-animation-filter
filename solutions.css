@@ -31,9 +31,29 @@
 
 /* esercizio 4 */
 
+.ex-4-square{
+    transition: opacity 1s;
+}
+
+.ex-4-square:hover{
+    opacity: 0;
+}
+
 /* esercizio 5 */
 
+.ex-5-square{
+    transition: transform 1s;
+}
+
+.ex-5-square:hover{
+    transform: scale(2);
+}
+
 /* esercizio 6 */
+
+.ex-6-img:hover{
+    filter: grayscale(100%);
+}
 
 /* esercizio 7 */
 
