@@ -57,9 +57,36 @@
 
 /* esercizio 7 */
 
+.ex-7-img{
+    transition: filter 2s;
+}
+
+.ex-7-img:hover{
+    filter: sepia(50%);
+}
+
 /* esercizio 8 */
 
+.ex-8-img{
+    transition: all 2s;
+}
+
+.ex-8-img:hover{
+    filter: sepia(50%) grayscale(50%);
+    border-radius: 20px;
+}
+
 /* esercizio 9 */
+
+.ex-9-img{
+    transition: all 2s;
+}
+
+.ex-9-img:hover{
+    filter: sepia(50%) grayscale(25%);
+    border-radius: 25px;
+    transform: scale(150%);
+}
 
 /* esercizio 10 */
 
